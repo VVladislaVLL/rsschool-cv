@@ -1,5 +1,6 @@
 # Vladislav Kochurko
 **Phone**: +375 (33) 3304523
+
 **Email**: vlad2002kochurko@gmail.com
 
 
@@ -51,6 +52,7 @@ function mergeSort(arr) {
 ### Education
 ---
  **Bachelor of mathematics** 
+ 
  Belarusian State University (2019 - present)
 ### English
 ---
