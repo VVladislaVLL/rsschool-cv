@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr  {
+    margin-bottom: 20px;
+}
+
+#main-block {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1024px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.photo-and-contacts {
+    float: left;
+    width: 340px;
+    height: 1040px;
+    background-color: #333;
+}
+
+.border-photo {
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.border-photo img {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: -70px;
+    left: -30px;
+}
+
+.contacts {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 260px;
+}
+
+.contacts li {
+    list-style: none;
+}
+
+.contacts a {
+    color: #fff;
+}
+
+
+.main-information {
+    float: right;
+    width: 684px;
+    height: 1040px;
+    background-color: #aaa;
+}
+
+.name-h1 {
+    margin: 10px 40px 10px 10px;
+}
+
+.name-h1 h1 {
+    text-align: right;
+    font-size: 45px;
+    color: #333;
+}
+
+.info {
+    margin: 40px;
+    height: 300px;
+}
+.information-about-left {
+    float: left;
+    width: 270px;
+}
+
+.information-about-left .text {
+    margin-bottom: 20px;
+}
+
+.education {
+    margin-top: 58px;
+}
+.information-about-right {
+    float: right;
+    width: 270px;
+}
+
+.information-about-right .text {
+    margin-bottom: 20px;
+}
+.information-about-right li {
+    list-style: none;       
+}
+
+.code-example {
+    margin: 40px;
+}
+
+.code {
+    background-color: #fff;
+    color: black;
+    padding-left: 20px;
+}

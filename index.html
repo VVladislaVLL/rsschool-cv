@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+    <main id="main-block">
+        <section class="photo-and-contacts">
+            <div class="my-photo">
+                <div class="border-photo">
+                    <img  src="img/kochurkoVA.jpg" alt="my photo (KochurkoVA">
+                </div>
+            </div>
+            <div class="contacts">
+                <h2>Contacts</h2>
+                <hr>
+                <ul>
+                    <li><b>Phone:</b><br>+375 (33) 3304523</li><br>
+                    <li><b>Email:</b> <a href="mailto:vlad2002kochurko@gmail.com">vlad2002kochurko@gmail.com</a></li><br>
+                    <li><b>Instagram:</b> <br>@vlad.kochurko</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="main-information">
+            <div class="name-h1">
+                <h1>Vladislav Kochurko</h1>
+            </div>
+            <div class="info">
+                <div class="information-about-left">
+                    <div class="summary">
+                        <h2>Summary</h2>
+                        <hr>
+                        <div class="text">
+                            <p>
+                                Passionate engineer with mathematical 
+                                background fond of User Interface design.
+                                 Purposeful, hardworking and responsive.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="education">
+                        <h2>Education</h2>
+                        <hr>
+                        <div class="text">
+                            <p><b>Bachelor of mathematics</b></p>
+                            <p> Belarusian State University (2019 - present)</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="information-about-right">
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <hr>
+                        <div class="text">
+                            <ul>
+                                <li><b>Languages:</b> JS, HTML, CSS, SQL, C++.</li>
+                                <li><b>Technologies:</b> Docker, Swagger, CircleCI, Traefik.</li>
+                                <li><b>Software:</b> Visual Studio Code, Figma, Adobe Illustrator, Adobe Photoshop.</li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="english">
+                        <h2>English</h2>
+                        <hr>
+                        <div class="text">
+                            <p><b>B1</b></p>
+                            <p> Streamline (2019 - present)</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="code-example">
+                <h2>Code examples</h2>
+                <hr>
+                    <div class="code">
+
+<pre>
+<code>
+// Merge Sort
+
+function merge(arrFirst, arrSecond) {
+    let arrSort = [];
+    let i = 0;
+    let j = 0;
+
+    while (i < arrFirst.length && j < arrSecond.length) {
+        if (arrFirst[i] <= arrSecond[j]) {
+            arrSort.push(arrFirst[i]);
+            i++;
+        }
+        else {
+            arrSort.push(arrSecond[j]);
+            j++;
+        }
+    }
+    return [...arrSort, ...arrFirst.slice(i), ...arrSecond.slice(j)];
+}
+
+function mergeSort(arr) {
+    if (!arr || !arr.length) return null;
+    
+    if (arr.length <= 1) return arr;
+    
+    let middle = Math.floor(arr.length / 2);
+    let arrLeft = arr.slice(0, middle);
+    let arrRight = arr.slice(middle);
+    
+    return merge(mergeSort(arrLeft), mergeSort(arrRight));
+};
+</code>
+</pre>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
